@@ -2,7 +2,13 @@
 /*              HTML SELECTORS            */
 /******************************************/
 section {
-    padding: 3% 7%;
+    padding: 5% 10%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    color: #112D4E;
 }
 
 /******************************************/
@@ -46,29 +52,50 @@ section {
 /*             Mision - Vision            */
 /******************************************/
 
-/* .mv{
-    padding: 3% 7%;
-} */
+
+.mv-text{
+    padding-right: 15%;
+}
+.mv-icon{
+    font-size: 3.5rem;
+}
+
+#mv{
+    height: 50vh;
+    background-color: #F9F7F7;
+    display: flex;
+    align-items: center;
+}
 /******************************************/
 /*               Actividades              */
 /******************************************/
-
+.activities{
+    padding: 3% 0%;
+    height: 50vh;
+}
+.activity{
+    padding: 3% 10.5%;
+}
+.text-act{
+    padding-right: 15%;
+}
 /******************************************/
 /*                  Footer                */
 /******************************************/
 
 .ico {
     margin: 0.5%;
-    color: grey;
+    color: #F9F7F7;
 }
 
 .ico:hover {
-    color: black;
     font-size: 1.5rem;
 }
 
 #footer {
     padding: 3%;
-    color: lightslategray;
+    color: #F9F7F7;
     font-size: 15px;
+    text-align: center;
+    background-color: #3F72AF;
 }

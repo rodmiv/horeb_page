@@ -52,7 +52,7 @@
                     <a class='nav-link' href="#act">Actividades</a>
                 </li>
                 <li class='nav-item nav-i'>
-                    <a class='nav-link' href="#cont">Contacto</a>
+                    <a class='nav-link' href="#footer">Contacto</a>
                 </li>
             </ul>
         </div>
@@ -75,7 +75,7 @@
                     </p>
                 </Div>
                 <Div class="col-lg-6">
-                    <img class="img-fluid iglesia" src="" alt="Iglesia Horeb">
+                    <img class="img-fluid iglesia" src="images/horeb_front.jpg" alt="Iglesia Horeb">
                 </Div>
             </Div>
         </Div>
@@ -83,22 +83,23 @@
 
     <!-- Mision - Vision -->
 
-    <section>
-        <Div class="container-fluid mv">
+    <section id="mv">
+        <Div class="container-fluid ">
             <Div class="row">
-                <Div class="col-lg-6">
-                    <h1>Mision</h1>
+                <Div class="col-lg-6 mv-text">
+
+                    <h1>Mision <i class="fa-solid fa-bullseye mv-icon"></i></h1>
                     <p>Que esta iglesia sea una expresión viva del amor de Cristo para el mundo, para que así invitemos
                         al
                         mundo a reconciliarse con Dios.</p>
                 </Div>
-                <Div class="col-lg-6">
-                    <h1>Vision</h1>
-                    <p>Hombres y mujeres
-                        Orando y trabajando en amor,
-                        Reconciliando al mundo
-                        Extraviado sin conocer las
-                        Buenas nuevas de Dios.
+                <Div class="col-lg-6 mv-text">
+                    <h1>Vision <i class="fa-solid fa-eye mv-icon"></i></h1>
+                    <p><strong>H</strong>ombres y mujeres
+                        <strong>O</strong>rando y trabajando en amor,
+                        <strong>R</strong>econciliando al mundo
+                        <strong>E</strong>xtraviado sin conocer las
+                        <strong>B</strong>uenas nuevas de Dios.
                     </p>
                 </Div>
             </Div>
@@ -106,30 +107,37 @@
     </section>
 
     <!-- Actividades -->
-    <section>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="false" data-bs-pause="hover">
+    <section class="activities" id="act">
+        <div id="carouselExampleControls" class="carousel slide carousel-dark" data-bs-ride="carousel"
+            data-bs-pause="hover">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
             <div class="carousel-inner">
-                <div class="carousel-item active container-fluid">
-                    <div class="Row">
-                        <div class="col-lg-6">
+                <div class="carousel-item active container-fluid activity">
+                    <div class="row">
+                        <div class="col-lg-6 ">
                             <img src="" alt="Cultos">
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 text-act">
                             <h1>Cultos</h1>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
                                 dolor.</p>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item container-fluid">
-                    <div class="Row">
-                        <div class="col-lg-6">
-                            <img src="" alt="Estudios">
-                        </div>
-                        <div class="col-lg-6">
+                <div class="carousel-item container-fluid activity">
+                    <div class="row">
+                        <div class="col-lg-6 text-act">
                             <h1>Estudios Biblicos</h1>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
                                 dolor.</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="" alt="Estudios">
                         </div>
                     </div>
                 </div>
