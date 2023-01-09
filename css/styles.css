@@ -2,7 +2,7 @@
 /*              HTML SELECTORS            */
 /******************************************/
 section {
-    padding: 5% 10%;
+    padding: 5% 12%;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6{
     height: 50vh;
 }
 .activity{
-    padding: 3% 10.5%;
+    padding: 3% 12.5%;
 }
 .text-act{
     padding-right: 15%;
@@ -98,4 +98,23 @@ h1, h2, h3, h4, h5, h6{
     font-size: 15px;
     text-align: center;
     background-color: #3F72AF;
+}
+
+/******************************************/
+/*             Media Functions            */
+/******************************************/
+
+@media (max-width:800px) {
+
+    #mv{
+        height: 100vh;
+    }
+
+    .mv-text{
+        padding: 12% 0%;
+    }
+    
+    .activity{
+        padding: 10% 7% 10% 12%;
+    }
 }
