@@ -31,6 +31,9 @@ h1, h2, h3, h4, h5, h6{
     font-size: 1.5rem;
     font-family: 'Ubuntu';
     padding: 0.5% 3%;
+    position: fixed;
+    width: 100vw;
+    font-weight: bold;
 }
 
 .navbar-brand {
@@ -40,9 +43,9 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
-/* .title-Image {
-    width: 100vw;
-} */
+.title-Image {
+    height: 100vh;
+}
 
 /******************************************/
 /*                 Nosotros               */
@@ -116,5 +119,9 @@ h1, h2, h3, h4, h5, h6{
     
     .activity{
         padding: 10% 7% 10% 12%;
+    }
+
+    .title-Image {
+        height: 50vh;
     }
 }
